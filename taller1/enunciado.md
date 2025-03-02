@@ -28,7 +28,10 @@ Se crearon dos clases `Persona` y `IMC`. Al crear el objeto `Persona`, se crea e
     5. `grasa_corp` → 4 bytes (float).
   - Ecuación de complejidad espacial.
 
-    4(2) + X_1 + 4(4) + X_2 = X_1 + X_2 + 8 + 16
+    4(2) + X_1 + 4(4) + X_2
+
+    = X_1 + X_2 + 8 + 16
+
     = X_1 + X_2 + 24
 - Análisis de la Clase `Persona`
   - Métodos.
@@ -44,8 +47,12 @@ Se crearon dos clases `Persona` y `IMC`. Al crear el objeto `Persona`, se crea e
     5. `sexo` → 4 bytes (int).
   - Ecuación de complejidad espacial.
 
-    4(3) + Y_1 + X_1 + X_2 + 24 + Y_2 + 4(3) = Y_1 + Y_2 + X_1 + X_2 + 12 + 12 + 24
+    4(3) + Y_1 + X_1 + X_2 + 24 + Y_2 + 4(3)
+
+    = Y_1 + Y_2 + X_1 + X_2 + 12 + 12 + 24
+
     = Y_1 + Y_2 + X_1 + X_2 + 48
+
 - Análisis del `main()`
 
 Como hay dos objetos `Persona`, y su complejidad espacial es `Y1 + Y2 + X_1 + X_2 + 48` entonces:
